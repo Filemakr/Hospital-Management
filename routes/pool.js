@@ -8,7 +8,7 @@ const pool = mysql.createPool({
    user: 'doadmin',
   password:'zrfsltih9so8u9zk',
   // password : '123',
-    database: 'hospital_management',
+    database: 'political_frames',
     port:'25060' ,
     multipleStatements: true
   })
