@@ -3,13 +3,13 @@ require('dotenv').config()
 
 const pool = mysql.createPool({
 
-   host:'localhost',
+   host:'idlcdatabase-do-user-8079481-0.b.db.ondigitalocean.com',
   ///host : 'localhost',
-   user: 'root',
-  password:'123',
+   user: 'doadmin',
+  password:'zrfsltih9so8u9zk',
   // password : '123',
-    database: 'organ_donation',
-    port:'3306' ,
+    database: 'hospital_management',
+    port:'25060' ,
     multipleStatements: true
   })
 
