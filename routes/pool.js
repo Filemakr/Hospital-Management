@@ -3,13 +3,13 @@ require('dotenv').config()
 
 const pool = mysql.createPool({
 
-   host:'idlcdatabase-do-user-8079481-0.b.db.ondigitalocean.com',
+   host:'167.71.231.201',
   ///host : 'localhost',
-   user: 'doadmin',
-  password:'zrfsltih9so8u9zk',
+   user: 'root',
+  password:'123a@8Anmanraspaa123a@*Anmanraspaa',
   // password : '123',
     database: 'political_frames',
-    port:'25060' ,
+    port:'3306' ,
     multipleStatements: true
   })
 
